@@ -1,3 +1,65 @@
+*{
+    margin: 0;
+    padding: 0
+}
 body{
-    background-color: brown;
+    font-family: 'Arial';
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+header{
+    color: rgb(255, 255, 255);
+    background-color:rgb(27, 37, 242) ;
+    padding: 20px 0;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,input,textarea,button{
+    margin: 10px 0;
+    width: 300px;
+}
+
+button{
+    background-color: rgb(7, 44, 228);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1f41ff;
+
+}
+footer{
+    background-color: #210cff;
+    color: white;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.pet{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
